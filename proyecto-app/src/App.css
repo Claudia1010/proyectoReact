@@ -1,3 +1,10 @@
+.header{
+  display: flex;
+  height: 15vh;
+  background-color: blueviolet;
+  width: 100%;
+}
+
 .middle{
   display: flex;
   flex-direction: row;  
