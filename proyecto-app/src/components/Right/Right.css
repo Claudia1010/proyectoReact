@@ -1,0 +1,9 @@
+.right{
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;
+    align-items: center;
+    background-color: #90f;
+    height: 75vh;
+    width: 70%;
+  }
