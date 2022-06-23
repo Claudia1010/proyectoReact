@@ -9,7 +9,6 @@ function App() {
           <div className="header">
           </div>
         
-{/*  */}
           <div className="middle">
             <div className="left">
               
