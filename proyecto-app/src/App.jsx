@@ -17,8 +17,26 @@ function App() {
           <Left />
         </div>
 
+
         <div className="right">
           <Right />
+
+        <div className="home">
+          <div className="header">
+          </div>
+        
+          <div className="middle">
+            <div className="left">
+              
+            </div>
+
+            <div className="right">
+            
+            </div>
+          </div>
+
+          <div className="footer" />
+
         </div>
       </div>
 
