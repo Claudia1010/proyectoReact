@@ -7,13 +7,6 @@
   flex-direction: column; 
 }
 
-.header{
-  display: flex;
-  height: 15vh;
-  background-color: rgb(45, 21, 155);
-  width: 100%;
-}
-
 .middle{
   display: flex;
   flex-direction: row;  

@@ -1,7 +1,6 @@
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-/* import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer'; */
-import NavBar from './components/NavBar/NavBar';
+import Header from './components/Header/Header';
+/* import Footer from './components/Footer/Footer'; */
 import Home from './container/Home/Home';
 import Login from './container/Login/Login';
 import NotFound from './container/NotFound/NotFound';
@@ -17,7 +16,7 @@ function App() {
     <div className="main">
       <BrowserRouter>
         <div className="header">
-          <NavBar />
+          <Header />
         </div>
         <div className="middle">
           <div className="leftLinks">
