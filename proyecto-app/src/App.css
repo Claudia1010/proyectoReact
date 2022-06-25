@@ -22,7 +22,7 @@
   width: 100%;
 }
 
-.left{
+.leftLinks{
   display: flex;
   flex-direction: row;  
   background-color: #909;
@@ -30,7 +30,7 @@
   width: 30%;
 }
 
-.right{
+.rightContainers{
   display: flex;
   flex-direction: row;  
   background-color: #90f;
