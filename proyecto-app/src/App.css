@@ -15,25 +15,11 @@
   width: 100%;
 }
 
-.leftLinks{
-  display: flex;
-  flex-direction: row;  
-  background-color: #909;
-  height: 84vh;
-  width: 30%;
-}
-
 .rightContainers{
   display: flex;
   flex-direction: row;  
   background-color: #90f;
   height: 84vh;
   width: 70%;
-}
-
-.footer{
-  text-align: center ; 
-  background-color: rgb(153, 61, 0);
-  height: 6vh;
-  width: 100%;
+  border-left: 0.1em solid black;
 }

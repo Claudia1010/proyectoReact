@@ -1,6 +1,7 @@
-.footer{
-    text-align: center ; 
-    background-color: rgb(153, 61, 0);
-    height: 10vh;
-    width: 100%;
-  }
+.footer {
+  height: 6vh;
+  width: 100%;
+  text-align: center;
+  background: linear-gradient(rgb(2, 2, 123), blue, rgb(2, 2, 123));
+  border-top: 0.1em solid black;
+}
