@@ -1,10 +1,12 @@
 import React from "react"
+import "./RentList.css"
 
 const RentList = () => {
-
-    <div>
-        RentList
-    </div>
+    return(
+        <div className="rentStyles">
+            Rents
+        </div>
+    )   
 }
 
 export default RentList

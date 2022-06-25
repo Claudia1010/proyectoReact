@@ -1,10 +1,13 @@
 import React from "react"
+import "./Home.css"
+
 
 const Home = () => {
-
-    <div>
+    return(
+        <div className="homeStyles">
         Home
     </div>
+    )  
 }
 
 export default Home

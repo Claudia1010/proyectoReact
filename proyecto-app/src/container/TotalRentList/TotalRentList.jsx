@@ -1,10 +1,12 @@
 import React from "react"
+import "./TotalRentList.css"
 
 const TotalRentList = () => {
-
-    <div>
-        TotalRentList
-    </div>
+    return(
+        <div className="totalRentStyles">
+            Total Rents
+        </div>
+    ) 
 }
 
 export default TotalRentList

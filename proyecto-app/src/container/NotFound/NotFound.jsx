@@ -1,11 +1,11 @@
 import React from "react"
 
 const NotFound = () => {
-
-    <div>
-        error 404 <br />
-        Page not found
-    </div>
+    return(
+        <div className="notFoundStyles">
+            error 404 Not FOund
+        </div>
+    ) 
 }
 
 export default NotFound
