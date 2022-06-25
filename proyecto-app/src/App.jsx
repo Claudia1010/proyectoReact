@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Header from './components/Header/Header';
 /* import Footer from './components/Footer/Footer'; */
 import Home from './container/Home/Home';
@@ -11,24 +11,22 @@ import "./App.css"
 
 
 function App() {
-  return (
 
+  return (
     <div className="main">
       <BrowserRouter>
-        <div className="header">
-          <Header />
-        </div>
+        <Header />
         <div className="middle">
           <div className="leftLinks">
           </div>
           <div className="rightContainers">
             <Routes>
-              <Route path="/" element={<Home/>}/>
-              <Route path="/Login" element={<Login/>}/>
-              <Route path="/Register" element={<Register/>}/>
-              <Route path="/RentList" element={<RentList/>}/>
-              <Route path="/TotalRentList" element={<TotalRentList/>}/>
-              <Route path="*" element={<NotFound/>}/>
+              <Route path="/" element={<Home />} />
+              <Route path="/Login" element={<Login />} />
+              <Route path="/Register" element={<Register />} />
+              <Route path="/RentList" element={<RentList />} />
+              <Route path="/TotalRentList" element={<TotalRentList />} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </div>
         </div>

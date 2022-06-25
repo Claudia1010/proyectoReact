@@ -1,12 +1,14 @@
 .homeStyles{
     margin: 0;
     padding: 0;
-    color: white;
-    font-size: xx-large;
-    background-color: rgb(8, 85, 85);
     height: 100vh;
     width: 100%;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.portada{
+    height: 100vh;
+    width: 100%;
 }

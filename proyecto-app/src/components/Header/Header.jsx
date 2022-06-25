@@ -5,7 +5,7 @@ import "./Header.css"
 const Header = () => {
 
     return(
-        <div>
+        <div className="header">
             <ul className="links">
                 <NavLink className={({isActive}) => (isActive ? "active" : "inactive")} to="/" >Home</NavLink>
                 <NavLink className={({isActive}) => (isActive ? "active" : "inactive")} to="/Login" >Login</NavLink>
