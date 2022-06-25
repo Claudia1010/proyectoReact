@@ -15,12 +15,12 @@
   width: 100%;
   color: rgb(183, 6, 6);
   font-weight: bold;
-  margin: 5em;
+  margin: 3em;
 }
 
 .inactive {
   height: 10vh;
   width: 100%;
   color: rgb(138, 138, 233);
-  margin: 5em;
+  margin: 3em;
 }
