@@ -8,6 +8,7 @@ const Header = () => {
         <div className="header">
             <ul className="links">
                 <NavLink className={({isActive}) => (isActive ? "active" : "inactive")} to="/" >Home</NavLink>
+                <NavLink className={({isActive}) => (isActive ? "active" : "inactive")} to="/Searches" >Searches</NavLink>
                 <NavLink className={({isActive}) => (isActive ? "active" : "inactive")} to="/Login" >Login</NavLink>
                 <NavLink className={({isActive}) => (isActive ? "active" : "inactive")} to="/Register" >Register</NavLink>
                 <NavLink className={({isActive}) => (isActive ? "active" : "inactive")} to="/RentList" >RentList</NavLink>

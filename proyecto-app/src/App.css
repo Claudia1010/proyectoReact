@@ -18,7 +18,6 @@
 .rightContainers{
   display: flex;
   flex-direction: row;  
-  background-color: #90f;
   height: 84vh;
   width: 70%;
   border-left: 0.1em solid black;

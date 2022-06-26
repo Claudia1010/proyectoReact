@@ -3,7 +3,7 @@ import "./Login.css"
 
 const Login = () => {
 
-    const [userData, setUserData] = useState({
+    /* const [userData, setUserData] = useState({
         email: "",
         password: ""
     })
@@ -17,7 +17,7 @@ const Login = () => {
 
     const loginFunction = async () => {
 
-    }
+    } */
 
     return (
         
@@ -26,15 +26,29 @@ const Login = () => {
             {/* <pre>{JSON.stringify(userData, null, 2)}</pre> */}
 
             <div>
-                <input className="email" type="text" label="Email" name="email" placeholder="E-mail " onChange={(event) => {handlerForm(event)}} />
+                <input 
+                    className="email" 
+                    type="text" label="Email" 
+                    name="email" placeholder="E-mail " 
+                    onChange={(event) => {handlerForm(event)}} 
+                />
             </div>
             
             <div>
-                <input className="password" type="text" label="Password" name="password" placeholder="Password " onChange={(event) => {handlerForm(event)}} />
+                <input 
+                    className="password" 
+                    type="text" label="Password" 
+                    name="password" placeholder="Password " 
+                    onChange={(event) => {handlerForm(event)}} 
+                />
             </div>
             
             <div>
-                <button className="loginButtom" type="submit" target="_self" onClick={() => loginFunction()}>Log in</button>
+                <button 
+                    className="loginButtom" 
+                    type="button" target="_self" 
+                    onClick={() => loginFunction()}
+                >Log in</button>
             </div>
         </div>
 

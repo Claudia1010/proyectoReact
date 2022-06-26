@@ -1,0 +1,8 @@
+.filmCard {
+    padding: 1em;
+    margin: 1em;
+    background-color: #61daea;
+    border-radius: 1em;
+    border: .1em solid white;
+    box-shadow: 0px 0px 3px 2px white;
+}
