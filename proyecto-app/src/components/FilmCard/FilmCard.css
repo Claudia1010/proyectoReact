@@ -1,13 +1,26 @@
 .filmCard {
     color: black;
     font-weight: bold;
-    padding: 1em;
+    padding: 1.5em;
     margin: 1em;
     background: radial-gradient(rgb(174, 166, 12), rgba(218, 23, 23, 0.892));
-    border-radius: 1em;
+    border-radius: 3em;
     border: .1em solid blue;
     box-shadow: 0px 0px 3px 2px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .filmCard:active {
     transform: scale(1.4);
+}
+#ciudad{
+    color: white;
+    padding: 0.2em;
+    font-weight: 600;
+    font-size: x-large;
+    border: solid black 0.01em;
+    border-radius: 0.5em;
+    background: rgb(0, 0, 0);
 }
