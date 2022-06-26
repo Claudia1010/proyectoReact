@@ -8,10 +8,10 @@ const Searches = props => {
     let [weather, setWeather] = useState([])
 
     useEffect(() => {
-        axios.get("https://www.el-tiempo.net/api/json/v2/home")
+        axios.get("https://www.el-tiempo.net/api/json/v1/provincias")
 
             .then(show => {
-                setWeather(show.data.ciudades)
+                setWeather(show.data)
             })
 
     }, [])

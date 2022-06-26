@@ -5,10 +5,9 @@ const FilmCard = props => {
     
     return (
         <div className="filmCard">
-            <p id="ciudad">{props.data.name}</p>
-            <p>{props.data.stateSky.description}</p>
-            <p>Temperatura máxima: {props.data.temperatures.max}</p>
-            <p>Temperatura mínima: {props.data.temperatures.min}</p>
+            <p className="comunidadAutonoma">Comunidad autónoma: {props.data.COMUNIDAD_CIUDAD_AUTONOMA}</p>
+            <p>Provincia: {props.data.NOMBRE_PROVINCIA}</p>
+            <p>Cápital de provincia: {props.data.CAPITAL_PROVINCIA}</p>
         </div>
     )
 }

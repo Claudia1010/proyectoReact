@@ -1,7 +1,7 @@
 .filmCard {
     color: black;
     font-weight: bold;
-    padding: 1.5em;
+    padding: 1em;
     margin: 1em;
     background: radial-gradient(rgb(174, 166, 12), rgba(218, 23, 23, 0.892));
     border-radius: 3em;
@@ -15,12 +15,13 @@
 .filmCard:active {
     transform: scale(1.4);
 }
-#ciudad{
+.comunidadAutonoma{
     color: white;
     padding: 0.2em;
-    font-weight: 600;
+    font-weight: 400;
     font-size: x-large;
-    border: solid black 0.01em;
+    border: solid rgba(0, 0, 0, 0.39) 0.01em;
     border-radius: 0.5em;
-    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.544);
+    box-shadow: 0em 0em 0.4em 0.02em black;
 }
