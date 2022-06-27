@@ -1,19 +1,17 @@
 import React from "react"
-import {NavLink} from "react-router-dom"
+import Button from "../Button/Button"
 import "./Header.css"
 
 const Header = () => {
 
-    return(
+    return (
         <div className="header">
-            <ul className="links">
-                <NavLink className={({isActive}) => (isActive ? "active" : "inactive")} to="/" >Home</NavLink>
-                <NavLink className={({isActive}) => (isActive ? "active" : "inactive")} to="/Searches" >Searches</NavLink>
-                <NavLink className={({isActive}) => (isActive ? "active" : "inactive")} to="/Login" >Login</NavLink>
-                <NavLink className={({isActive}) => (isActive ? "active" : "inactive")} to="/Register" >Register</NavLink>
-                <NavLink className={({isActive}) => (isActive ? "active" : "inactive")} to="/RentList" >RentList</NavLink>
-                <NavLink className={({isActive}) => (isActive ? "active" : "inactive")} to="/TotalRentList" >TotalRent</NavLink>
-            </ul>
+                <Button name="Home" destiny="/" />
+                <Button name="Searches" destiny="/searches" />
+                <Button name="Login" destiny="/login" />
+                <Button name="Register" destiny="/register" />
+                <Button name="RentList" destiny="/rentList" />
+                <Button name="TotalRentList" destiny="/totalRentList" />
         </div>
     )
 }

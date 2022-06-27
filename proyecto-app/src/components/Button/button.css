@@ -1,0 +1,15 @@
+.buttons {
+    height: 5vh;
+    width: 10vw;
+    color: white;
+    font-weight: bold;
+    text-decoration:none;
+    border: 0.1em solid black;
+    border-radius: 0.5em;
+    padding: 0.2em;
+    background: radial-gradient(rgb(234, 9, 9), rgb(118, 9, 11));
+    box-shadow: 0em 0.0em 0.2em 0.03em white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

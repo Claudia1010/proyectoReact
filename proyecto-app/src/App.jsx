@@ -4,7 +4,6 @@ import LeftLinks from "./components/LeftLinks/LeftLinks"
 import Home from './container/Home/Home';
 import Searches from './container/Searches/Searches';
 import Login from './container/Login/Login';
-import NotFound from './container/NotFound/NotFound';
 import Register from './container/Register/Register';
 import RentList from './container/RentList/RentList';
 import TotalRentList from './container/TotalRentList/TotalRentList';
@@ -23,12 +22,11 @@ function App() {
           <div className="rightContainers">
             <Routes>
               <Route path="/" element={<Home />} />
-              <Route path="/Searches" element={<Searches />} />
-              <Route path="/Login" element={<Login />} />
-              <Route path="/Register" element={<Register />} />
-              <Route path="/RentList" element={<RentList />} />
-              <Route path="/TotalRentList" element={<TotalRentList />} />
-              <Route path="*" element={<NotFound />} />
+              <Route path="/searches" element={<Searches />} />
+              <Route path="/login" element={<Login />} />
+              <Route path="/register" element={<Register />} />
+              <Route path="/rentList" element={<RentList />} />
+              <Route path="/totalRentList" element={<TotalRentList />} />
             </Routes>
           </div>
         </div>
