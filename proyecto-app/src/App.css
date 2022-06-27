@@ -1,7 +1,6 @@
 .main{
   margin: 0em;
   padding: 0em;
-  height: 100vh;
   width: 100%;
   display: flex;
   flex-direction: column; 
@@ -11,14 +10,12 @@
   display: flex;
   flex-direction: row;  
   background-color: #05f;
-  height: 84vh;
   width: 100%;
 }
 
 .rightContainers{
   display: flex;
   flex-direction: row;  
-  height: 84vh;
   width: 70%;
   border-left: 0.1em solid black;
 }
